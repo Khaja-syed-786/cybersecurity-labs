@@ -1,0 +1,30 @@
+# Scan outputs & captures
+*.nessus
+*.pcap
+*.pcapng
+*.cap
+scan-results/
+loot/
+output/
+
+# Credentials / secrets (never commit)
+*.key
+*.pem
+*.pfx
+*.p12
+*.env
+.env
+credentials*
+secrets*
+
+# Logs
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
